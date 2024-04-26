@@ -1,8 +1,5 @@
-# React + Vite
+# React CartPage using Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application utilizes Redux for state management in a shopping cart scenario. The `CartCard` component displays product details, allowing quantity adjustments and proceeding to payment. The `UserContextComponent` manages product data via context. Redux handles cart state through `CartSlice`. The main `App` component integrates Redux for state accessibility. The project is organized with distinct files for components, context, Redux slices, and the main application.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Netlify Deployed URL
